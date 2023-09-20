@@ -1,4 +1,4 @@
-# Madden 20 - Custom Playbook Editor
+# [Madden Custom Playbook Editor](https://github.com/morphyyyy/Madden-CustomPlaybook-Editor/tree/master/Madden-CustomPlaybook-Editor/bin/Release)
 
 Only supports custom playbook db files.
 
