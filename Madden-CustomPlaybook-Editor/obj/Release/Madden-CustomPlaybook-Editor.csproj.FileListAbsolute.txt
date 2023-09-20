@@ -1,0 +1,17 @@
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\bin\Release\Madden-Playbook-Editor.exe.config
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\bin\Release\Madden-Playbook-Editor.exe
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\bin\Release\Madden-Playbook-Editor.pdb
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden-CustomPlaybook-Editor.csproj.AssemblyReference.cache
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden-CustomPlaybook-Editor.csproj.SuggestedBindingRedirects.cache
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden_CustomPlaybook_Editor.frmCreatePSAL.resources
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden_CustomPlaybook_Editor.frmEditFormation.resources
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden_CustomPlaybook_Editor.frmEditPlay.resources
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden_CustomPlaybook_Editor.frmLoading.resources
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden_CustomPlaybook_Editor.frmPlaybook.resources
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden_CustomPlaybook_Editor.frmEditPSAL.resources
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden_CustomPlaybook_Editor.Properties.Resources.resources
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden_CustomPlaybook_Editor.frmPSALVisualizer.resources
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden-CustomPlaybook-Editor.csproj.GenerateResource.cache
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden-CustomPlaybook-Editor.csproj.CoreCompileInputs.cache
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden-Playbook-Editor.exe
+D:\dev\Madden-CustomPlaybook-Editor\Madden-CustomPlaybook-Editor\obj\Release\Madden-Playbook-Editor.pdb
