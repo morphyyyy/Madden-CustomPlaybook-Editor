@@ -1,8 +1,8 @@
-# M20PlaybookEditor
+# Madden 20 - Custom Playbook Editor
 
-This playbook editor currently only supports custom playbooks.  It is in beta state with limited functionality, so bugs are possible, but it is relatively stable.
+Only supports custom playbook db files.
 
-There is limited undo ability and no Save As feature, so it would be a good idea to create backups before editing.
+There is limited undo ability and no Save As feature, so it would be a good idea to create backup playbook before editing.
 
 
 Playbook Editor
@@ -21,10 +21,43 @@ Route Visualizer
 -
 The Route Visualizer tool exists in the tools menu and currently only works with the provided csv.  It can draw and save routes one at a time, or save more than one route by selecting multiple groups of ID steps and selecting save all from the menu.
 
+# v1.36 - Small bug fix for a crash copy/pasting plays with Swing Routes
+
+# v1.35 - Fixed a bug that prevented PBFM from copying to Team Playbooks
+
+# v1.34 - Custom Route Colors
+
+Available in PLYS table context menu
+Doesn't stick or save
+
+# v1.33 - Copy/Paste entire Formation, Sub-Formations and Plays from CPB to TPB
+
+Copy is a little slow.  Let is cycle through all the Formations and Plays before pasting.
+
+# v1.32 - Bug Fixes with Copy/Paste from CPB to TPB
+
+# v1.31 - Add/Remove SETG Motion Alignments
+
+Motions accessible in options>Playart>PSAL
+Edit Formation > Right-Clight a player row in the SETG Alignment tab to add or remove from motion
+
+# v1.21 - Code 58 and PLYL search
+
+Search for Code 58 copies all code 58 data to clipboard in csv format
+PLYL Search looks for matching PLYL id and loadds the play if it exists
+
+Supports Copy/Paste to Custom Playbook Editor
+
+# v1.20 - Copy Entire Play to Team Playbook Editor
+
+Supports Copy/Paste to Custom Playbook Editor
+
+https://github.com/morphyyyy/Madden-20-Team-Playbook-Editor
+
 # v1.14 - Copy/Paste PSAL
 
 -
-Added copy and paste to PSAL Assignment Table.  Copies and pastes all 11 PLYS entries. 
+Added copy and paste to PSAL Assignment Table.  Copies and pastes selected player PLYS rows. 
 
 # v1.11 - Playart Update
 
