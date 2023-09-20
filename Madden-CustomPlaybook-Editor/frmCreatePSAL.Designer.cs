@@ -1,4 +1,4 @@
-﻿namespace Madden_CustomPlaybook_Editor
+﻿namespace MaddenCustomPlaybookEditor
 {
     partial class frmCreatePSAL
     {
@@ -185,7 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Madden_CustomPlaybook_Editor.Properties.Resources.chalkboard_2;
+            this.BackgroundImage = global::MaddenCustomPlaybookEditor.Properties.Resources.chalkboard_2;
             this.ClientSize = new System.Drawing.Size(389, 338);
             this.Controls.Add(this.btnDiscardPSAL);
             this.Controls.Add(this.btnCreatePSAL);

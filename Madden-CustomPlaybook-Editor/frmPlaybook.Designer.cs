@@ -1,4 +1,4 @@
-﻿namespace Madden_CustomPlaybook_Editor
+﻿namespace MaddenCustomPlaybookEditor
 {
     partial class frmPlaybook
     {
@@ -97,7 +97,7 @@
             this.copySubFormationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.cdlPSLO = new System.Windows.Forms.ColorDialog();
-            this.lblOpenPlaybook = new Madden_CustomPlaybook_Editor.CustomLabel();
+            this.lblOpenPlaybook = new MaddenCustomPlaybookEditor.CustomLabel();
             this.cdlPSLD = new System.Windows.Forms.ColorDialog();
             this.mnuPlaybook.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPlay)).BeginInit();
@@ -112,7 +112,7 @@
             // 
             // mnuPlaybook
             // 
-            this.mnuPlaybook.BackgroundImage = global::Madden_CustomPlaybook_Editor.Properties.Resources.Football_toolbar;
+            this.mnuPlaybook.BackgroundImage = global::MaddenCustomPlaybookEditor.Properties.Resources.Football_toolbar;
             this.mnuPlaybook.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuFile,
             this.mnuTools,
@@ -323,7 +323,7 @@
             this.btn_Close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Close.Image = global::Madden_CustomPlaybook_Editor.Properties.Resources.btn_close;
+            this.btn_Close.Image = global::MaddenCustomPlaybookEditor.Properties.Resources.btn_close;
             this.btn_Close.Location = new System.Drawing.Point(854, 1);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Size = new System.Drawing.Size(22, 22);
@@ -342,7 +342,7 @@
             this.btn_Max.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Max.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_Max.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Max.Image = global::Madden_CustomPlaybook_Editor.Properties.Resources.btn_max;
+            this.btn_Max.Image = global::MaddenCustomPlaybookEditor.Properties.Resources.btn_max;
             this.btn_Max.Location = new System.Drawing.Point(830, 1);
             this.btn_Max.Name = "btn_Max";
             this.btn_Max.Size = new System.Drawing.Size(22, 22);
@@ -361,7 +361,7 @@
             this.btn_Min.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Min.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_Min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Min.Image = global::Madden_CustomPlaybook_Editor.Properties.Resources.btn_min;
+            this.btn_Min.Image = global::MaddenCustomPlaybookEditor.Properties.Resources.btn_min;
             this.btn_Min.Location = new System.Drawing.Point(806, 1);
             this.btn_Min.Name = "btn_Min";
             this.btn_Min.Size = new System.Drawing.Size(22, 22);
@@ -457,7 +457,7 @@
             // 
             this.picPlay.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picPlay.BackColor = System.Drawing.Color.Transparent;
-            this.picPlay.Image = global::Madden_CustomPlaybook_Editor.Properties.Resources.field_blank_lines;
+            this.picPlay.Image = global::MaddenCustomPlaybookEditor.Properties.Resources.field_blank_lines;
             this.picPlay.Location = new System.Drawing.Point(335, 35);
             this.picPlay.Name = "picPlay";
             this.picPlay.Size = new System.Drawing.Size(533, 600);
@@ -769,7 +769,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Madden_CustomPlaybook_Editor.Properties.Resources.chalkboard_2;
+            this.BackgroundImage = global::MaddenCustomPlaybookEditor.Properties.Resources.chalkboard_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(878, 649);
             this.Controls.Add(this.lblOpenPlaybook);

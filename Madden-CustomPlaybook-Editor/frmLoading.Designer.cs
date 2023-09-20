@@ -1,4 +1,4 @@
-﻿namespace Madden_CustomPlaybook_Editor
+﻿namespace MaddenCustomPlaybookEditor
 {
     partial class frmLoading
     {
@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLoading));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.lblLoading = new Madden_CustomPlaybook_Editor.CustomLabel();
+            this.lblLoading = new MaddenCustomPlaybookEditor.CustomLabel();
             this.SuspendLayout();
             // 
             // timer1
@@ -64,7 +64,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::Madden_CustomPlaybook_Editor.Properties.Resources.Football_00;
+            this.BackgroundImage = global::MaddenCustomPlaybookEditor.Properties.Resources.Football_00;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(512, 512);
             this.Controls.Add(this.lblLoading);

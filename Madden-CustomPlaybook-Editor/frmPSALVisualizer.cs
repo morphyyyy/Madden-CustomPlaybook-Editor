@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Madden_CustomPlaybook_Editor
+namespace MaddenCustomPlaybookEditor
 {
     public partial class frmPSALVisualizer : Form
     {

@@ -24,7 +24,7 @@ using System.Drawing.Text;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Madden_CustomPlaybook_Editor
+namespace MaddenCustomPlaybookEditor
 {
     #region Classes
 

@@ -2,7 +2,7 @@
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
-namespace Madden_CustomPlaybook_Editor
+namespace MaddenCustomPlaybookEditor
 {
     public class CustomLabel : System.Windows.Forms.Label
     {

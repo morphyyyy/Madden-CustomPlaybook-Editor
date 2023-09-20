@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Madden_CustomPlaybook_Editor
+namespace MaddenCustomPlaybookEditor
 {
     public partial class frmLoading : Form
     {

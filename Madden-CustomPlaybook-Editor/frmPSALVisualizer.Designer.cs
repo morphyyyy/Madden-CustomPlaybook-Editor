@@ -1,4 +1,4 @@
-﻿namespace Madden_CustomPlaybook_Editor
+﻿namespace MaddenCustomPlaybookEditor
 {
     partial class frmPSALVisualizer
     {
@@ -95,7 +95,7 @@
             this.btn_Min.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Min.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_Min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Min.Image = global::Madden_CustomPlaybook_Editor.Properties.Resources.btn_min;
+            this.btn_Min.Image = global::MaddenCustomPlaybookEditor.Properties.Resources.btn_min;
             this.btn_Min.Location = new System.Drawing.Point(953, 1);
             this.btn_Min.Name = "btn_Min";
             this.btn_Min.Size = new System.Drawing.Size(22, 22);
@@ -114,7 +114,7 @@
             this.btn_Max.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Max.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_Max.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Max.Image = global::Madden_CustomPlaybook_Editor.Properties.Resources.btn_max;
+            this.btn_Max.Image = global::MaddenCustomPlaybookEditor.Properties.Resources.btn_max;
             this.btn_Max.Location = new System.Drawing.Point(977, 1);
             this.btn_Max.Name = "btn_Max";
             this.btn_Max.Size = new System.Drawing.Size(22, 22);
@@ -133,7 +133,7 @@
             this.btn_Close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Close.Image = global::Madden_CustomPlaybook_Editor.Properties.Resources.btn_close;
+            this.btn_Close.Image = global::MaddenCustomPlaybookEditor.Properties.Resources.btn_close;
             this.btn_Close.Location = new System.Drawing.Point(1001, 1);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Size = new System.Drawing.Size(22, 22);
@@ -145,7 +145,7 @@
             // 
             // picPSAL
             // 
-            this.picPSAL.Image = global::Madden_CustomPlaybook_Editor.Properties.Resources.field_blank_resized;
+            this.picPSAL.Image = global::MaddenCustomPlaybookEditor.Properties.Resources.field_blank_resized;
             this.picPSAL.Location = new System.Drawing.Point(480, 64);
             this.picPSAL.Name = "picPSAL";
             this.picPSAL.Size = new System.Drawing.Size(533, 600);
@@ -157,7 +157,7 @@
             // 
             // mnuPSALVis
             // 
-            this.mnuPSALVis.BackgroundImage = global::Madden_CustomPlaybook_Editor.Properties.Resources.Football_toolbar;
+            this.mnuPSALVis.BackgroundImage = global::MaddenCustomPlaybookEditor.Properties.Resources.Football_toolbar;
             this.mnuPSALVis.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuFile_PSALVis,
             this.mnuPSAL_PSALVis});
@@ -242,7 +242,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.BackgroundImage = global::Madden_CustomPlaybook_Editor.Properties.Resources.chalkboard_2;
+            this.BackgroundImage = global::MaddenCustomPlaybookEditor.Properties.Resources.chalkboard_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1025, 678);
             this.Controls.Add(this.chbMovePlayer);

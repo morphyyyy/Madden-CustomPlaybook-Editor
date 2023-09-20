@@ -1,4 +1,4 @@
-﻿namespace Madden_CustomPlaybook_Editor
+﻿namespace MaddenCustomPlaybookEditor
 {
     partial class frmEditPSAL
     {
@@ -173,7 +173,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackgroundImage = global::Madden_CustomPlaybook_Editor.Properties.Resources.chalkboard_2;
+            this.BackgroundImage = global::MaddenCustomPlaybookEditor.Properties.Resources.chalkboard_2;
             this.ClientSize = new System.Drawing.Size(389, 309);
             this.Controls.Add(this.chbEdit);
             this.Controls.Add(this.dgvPSAL);

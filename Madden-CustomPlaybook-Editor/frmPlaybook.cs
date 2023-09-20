@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace Madden_CustomPlaybook_Editor
+namespace MaddenCustomPlaybookEditor
 {
     public partial class frmPlaybook : Form
     {

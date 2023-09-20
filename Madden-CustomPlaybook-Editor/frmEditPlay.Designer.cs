@@ -1,4 +1,4 @@
-﻿namespace Madden_CustomPlaybook_Editor
+﻿namespace MaddenCustomPlaybookEditor
 {
     partial class frmEditPlay
     {
@@ -72,7 +72,7 @@
             this.btn_Close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Close.Image = global::Madden_CustomPlaybook_Editor.Properties.Resources.btn_close;
+            this.btn_Close.Image = global::MaddenCustomPlaybookEditor.Properties.Resources.btn_close;
             this.btn_Close.Location = new System.Drawing.Point(768, 1);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Size = new System.Drawing.Size(22, 22);
@@ -84,7 +84,7 @@
             // 
             // mnuEditPlay
             // 
-            this.mnuEditPlay.BackgroundImage = global::Madden_CustomPlaybook_Editor.Properties.Resources.Football_toolbar;
+            this.mnuEditPlay.BackgroundImage = global::MaddenCustomPlaybookEditor.Properties.Resources.Football_toolbar;
             this.mnuEditPlay.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuEditPlay_Options});
             this.mnuEditPlay.Location = new System.Drawing.Point(0, 0);
@@ -338,7 +338,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Madden_CustomPlaybook_Editor.Properties.Resources.chalkboard_2;
+            this.BackgroundImage = global::MaddenCustomPlaybookEditor.Properties.Resources.chalkboard_2;
             this.ClientSize = new System.Drawing.Size(792, 607);
             this.Controls.Add(this.lblSRFT);
             this.Controls.Add(this.dgvSRFT);

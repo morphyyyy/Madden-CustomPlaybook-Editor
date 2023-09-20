@@ -6,7 +6,7 @@ using System.Linq;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
-namespace Madden_CustomPlaybook_Editor
+namespace MaddenCustomPlaybookEditor
 {
     public partial class frmCreatePSAL : Form
     {
