@@ -309,7 +309,7 @@ namespace MaddenCustomPlaybookEditor
         {
             int newHeight = dgvPBPL.Height + dgvPBPL.Location.Y;
 
-            if (dgvPLPD.Visible && !dgvPLRD.Visible)
+            if (dgvPLPD.Visible)
             {
                 newHeight = newHeight + 12;
                 lblPLPD.Location = new Point(lblPLPD.Location.X, newHeight);
@@ -319,7 +319,7 @@ namespace MaddenCustomPlaybookEditor
 
                 Width = Math.Max(dgvPBPL.Width, dgvPLPD.Width) + 24;
             }
-            else if (!dgvPLPD.Visible && dgvPLRD.Visible)
+            if (dgvPLRD.Visible)
             {
                 newHeight = newHeight + 12;
                 lblPLRD.Location = new Point(lblPLRD.Location.X, newHeight);
@@ -329,23 +329,23 @@ namespace MaddenCustomPlaybookEditor
 
                 Width = Math.Max(dgvPBPL.Width, dgvPLRD.Width) + 24;
             }
-            else if (dgvPLPD.Visible && dgvPLRD.Visible)
-            {
-                newHeight = newHeight + 12;
-                lblPLPD.Location = new Point(lblPLPD.Location.X, newHeight);
-                newHeight = newHeight + lblPLPD.Height + 3;
-                dgvPLPD.Location = new Point(dgvPLPD.Location.X, newHeight);
-                newHeight = newHeight + dgvPLRD.Height;
+            //else if (dgvPLPD.Visible && dgvPLRD.Visible)
+            //{
+            //    newHeight = newHeight + 12;
+            //    lblPLPD.Location = new Point(lblPLPD.Location.X, newHeight);
+            //    newHeight = newHeight + lblPLPD.Height + 3;
+            //    dgvPLPD.Location = new Point(dgvPLPD.Location.X, newHeight);
+            //    newHeight = newHeight + dgvPLRD.Height;
 
-                newHeight = newHeight + 12;
-                lblPLRD.Location = new Point(lblPLRD.Location.X, newHeight);
-                newHeight = newHeight + lblPLRD.Height + 3;
-                dgvPLRD.Location = new Point(dgvPLRD.Location.X, newHeight);
-                newHeight = newHeight + dgvPLRD.Height + 47;
+            //    newHeight = newHeight + 12;
+            //    lblPLRD.Location = new Point(lblPLRD.Location.X, newHeight);
+            //    newHeight = newHeight + lblPLRD.Height + 3;
+            //    dgvPLRD.Location = new Point(dgvPLRD.Location.X, newHeight);
+            //    newHeight = newHeight + dgvPLRD.Height + 47;
 
-                Width = Math.Max(Math.Max(dgvPBPL.Width, dgvPLPD.Width), dgvPLRD.Width) + 24;
-            }
-            else if (!dgvPLPD.Visible && !dgvPLRD.Visible && dgvSRFT.Visible)
+            //    Width = Math.Max(Math.Max(dgvPBPL.Width, dgvPLPD.Width), dgvPLRD.Width) + 24;
+            //}
+            if (dgvSRFT.Visible)
             {
                 newHeight = newHeight + 12;
                 lblSRFT.Location = new Point(lblSRFT.Location.X, newHeight);
@@ -355,7 +355,7 @@ namespace MaddenCustomPlaybookEditor
 
                 Width = Math.Max(dgvPBPL.Width, dgvSRFT.Width) + 24;
             }
-            else
+            if (!dgvPLPD.Visible && !dgvPLRD.Visible && !dgvSRFT.Visible)
             {
                 newHeight += 47;
                 btnUpdate.Enabled = false;
