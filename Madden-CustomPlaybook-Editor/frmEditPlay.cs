@@ -308,6 +308,7 @@ namespace MaddenCustomPlaybookEditor
         private void ResizeForm()
         {
             int newHeight = dgvPBPL.Height + dgvPBPL.Location.Y;
+            int newWidth = dgvPBPL.Width + dgvPBPL.Location.X;
 
             if (dgvPLPD.Visible)
             {
@@ -317,7 +318,7 @@ namespace MaddenCustomPlaybookEditor
                 dgvPLPD.Location = new Point(dgvPLPD.Location.X, newHeight);
                 newHeight = newHeight + dgvPLRD.Height + 47;
 
-                Width = Math.Max(dgvPBPL.Width, dgvPLPD.Width) + 24;
+                newWidth += Math.Max(dgvPBPL.Width, dgvPLPD.Width) + 24;
             }
             if (dgvPLRD.Visible)
             {
@@ -327,7 +328,7 @@ namespace MaddenCustomPlaybookEditor
                 dgvPLRD.Location = new Point(dgvPLRD.Location.X, newHeight);
                 newHeight = newHeight + dgvPLRD.Height + 47;
 
-                Width = Math.Max(dgvPBPL.Width, dgvPLRD.Width) + 24;
+                newWidth += Math.Max(dgvPBPL.Width, dgvPLRD.Width) + 24;
             }
             //else if (dgvPLPD.Visible && dgvPLRD.Visible)
             //{
@@ -353,7 +354,7 @@ namespace MaddenCustomPlaybookEditor
                 dgvSRFT.Location = new Point(dgvSRFT.Location.X, newHeight);
                 newHeight = newHeight + dgvSRFT.Height + 47;
 
-                Width = Math.Max(dgvPBPL.Width, dgvSRFT.Width) + 24;
+                newWidth += Math.Max(dgvPBPL.Width, dgvSRFT.Width) + 24;
             }
             if (!dgvPLPD.Visible && !dgvPLRD.Visible && !dgvSRFT.Visible)
             {
