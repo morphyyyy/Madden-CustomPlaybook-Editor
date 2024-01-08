@@ -2196,11 +2196,11 @@ namespace MaddenCustomPlaybookEditor
                         _PLAY.SDEF.Add(new SDEF
                         {
                             rec = SDEF[i].rec,
-                            ATCA = SDEF[1].ATCA,
+                            ATCA = SDEF[i].ATCA,
                             PLYL = SDEF[i].PLYL,
                             DFLP = SDEF[i].DFLP,
-                            STRP = SDEF[1].STRP,
-                            STRR = SDEF[1].STRR
+                            STRP = SDEF[i].STRP,
+                            STRR = SDEF[i].STRR
                         });
                     }
                 }
